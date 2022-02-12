@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Import Util - Data
+import data from './util';
+
 // Add styles
 import './styles/app.scss';
 
