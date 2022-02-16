@@ -20,7 +20,7 @@ function App() {
     return (
         <div className="App">
             <Song currentSong={currentSong} /> {/*Pass in currentSong state as props down to the Song component */}
-            <Player />
+            <Player currentSong={currentSong} />
         </div>
     );
 }
